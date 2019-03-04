@@ -13,14 +13,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-<<<<<<< HEAD
     public void CusSpin(View view) {
-        Intent intent = new Intent(MainActivity.this,CusSpinnerActivity.class);
+        Intent intent = new Intent(MainActivity.this, CusSpinnerActivity.class);
         startActivity(intent);
-=======
-    public void btnGridView(View view) {
-        Intent it = new Intent(MainActivity.this,GridViewActivity.class);
-        startActivity(it);
->>>>>>> origin/Hung
     }
+    public void btnGridView (View view){
+        Intent it = new Intent(MainActivity.this, GridViewActivity.class);
+        startActivity(it);
+    }
+
 }
