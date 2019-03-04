@@ -19,10 +19,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:text="GridView"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="ListView"
         android:text="ListView"/>
     <Button
         android:layout_width="match_parent"
