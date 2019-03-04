@@ -17,8 +17,12 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".ListViewActivity"></activity>
         <activity android:name=".CusSpinnerActivity"></activity>
 
         <activity android:name=".GridViewActivity"></activity>
+
     </application>
+
+
 </manifest>
