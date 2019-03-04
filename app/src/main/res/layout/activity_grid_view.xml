@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".GridViewActivity"
     android:orientation="vertical">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,18 +15,10 @@
         android:background="@color/color_bgtextView"
         android:textSize="@dimen/size_textView"
         />
-    <Button
+    <GridView
+        android:id="@+id/gridv_1"
+        android:numColumns="3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="GridView"
-        android:onClick="btnGridView"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ListView"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="CusSpin"
-        android:text="Spinner"/>
+        android:layout_height="match_parent">
+    </GridView>
 </LinearLayout>
